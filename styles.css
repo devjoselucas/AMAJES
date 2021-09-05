@@ -10,25 +10,39 @@ html {
 font-size: 62.5%;
 }
 
-/* CONTAINER */
-
-.container {
-    display: flex;  
-    flex-flow: row wrap;
-    font-weight: bold;
-    text-align: center;
+body {
+    
 }
 
-.container > * {
-    padding: 1rem;
-    flex: 1 100%;
+
+/* Space-down */
+
+.space-white {
+    width: 100%;
+    height: 5.2rem;
+    background: white;
+}
+
+.space-down {
+    position: fixed;
+    width: 100%;
+    height: 4.2rem;
+    background: white;
 }
 
 /* MENU */
 
 .menu {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.menu h1 {
+    
 }
 
 .menu-list {
@@ -38,16 +52,51 @@ font-size: 62.5%;
     
     list-style: none;
     margin: 0; 
-    background: deepskyblue;
+    background: white;
 }
 
 .menu-list a {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: white;
+    color: #F2508B;
 }
 
 .menu-list a:hover {
-    background: #1565C0;
+    background: #732F61;
+}
+
+.img-logo {
+    width: 7rem;
+    height: auto;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.container > * {
+    padding: 1rem;
+    flex: 1 100%;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.folder {
+    background: lightsalmon;
+    width: 100%;
+    height: 10rem;
+    
 }
