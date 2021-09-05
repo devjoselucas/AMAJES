@@ -60,7 +60,7 @@ html {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: #F2508B;
+    color: #F732F6;
 }
 
 .menu-list a:hover {
@@ -119,5 +119,9 @@ html {
 }
 
 .intro img {
-    width: 20rem;
+    width: 25rem;
+}
+
+.into-text {
+    
 }
