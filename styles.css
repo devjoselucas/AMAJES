@@ -1,0 +1,53 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container > * {
+    padding: 1rem;
+    flex: 1 100%;
+}
+
+/* MENU */
+
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+.menu-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+}
+
+.menu-list a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.menu-list a:hover {
+    background: #1565C0;
+}
