@@ -127,7 +127,14 @@ html {
 }
 
 .intro-text {
-    
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
     max-width: 60rem;
     max-height: 40rem;
+    min-width: 28rem;
+}
+
+.intro-text p {
+    text-align: justify;
 }
