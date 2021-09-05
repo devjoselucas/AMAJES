@@ -9,28 +9,38 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    
 }
-
 
 .body {
     max-width: 120rem;
     margin: 0 auto;
 }
 
+h2, h3{
+    font-family: 'Cinzel', serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 3rem;
+}
+
 
 /* Space-down */
 
 .space-white {
+    position: fixed;
     width: 100%;
     height: 5.2rem;
-    background: white;
+    background: solid white;
 }
 
 .space-down {
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     height: 4.2rem;
-    background: white;
+    background: solid white;
 }
 
 /* MENU */
@@ -45,6 +55,11 @@ html {
     z-index: 1;
 }
 
+.menu-bg {
+    background: white;
+    border-bottom: 0.05rem solid #ffbeee;
+}
+
 
 .menu-list {
     display: flex;
@@ -57,6 +72,7 @@ html {
 }
 
 .menu-list a {
+    font-size: 1.2rem;
     text-decoration: none;
     display: block;
     padding: 1em;
@@ -66,7 +82,7 @@ html {
 .menu-list a:hover {
     background: #732F61;
     transition: all 500ms ease-in-out;
-    color: #fc97d0;
+    color: #fdd3eb;
 }
 
 .img-logo {
@@ -98,7 +114,7 @@ html {
 }
 
 .folder {
-    background: lightsalmon;
+    background: #732F61;
     width: 100%;
     height: 10rem;
     
@@ -120,7 +136,7 @@ html {
 }
 
 .intro img {
-    width: 100%;
+    width: 95%;
     height: auto;
     min-width: 25rem;
     padding-left: 1rem;
@@ -133,8 +149,22 @@ html {
     max-width: 60rem;
     max-height: 40rem;
     min-width: 28rem;
+    
 }
 
 .intro-text p {
     text-align: justify;
+    font-size: 1.7rem;
+}
+
+.intro-text h2 {
+    
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.intro-text h3 {
+
+    font-size: 1.6rem;
+    text-transform: uppercase;
 }
