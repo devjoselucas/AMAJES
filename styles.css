@@ -9,12 +9,8 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    
 }
 
-body {
-    
-}
 
 .body {
     max-width: 120rem;
@@ -49,9 +45,6 @@ body {
     z-index: 1;
 }
 
-.menu h1 {
-    
-}
 
 .menu-list {
     display: flex;
@@ -72,7 +65,7 @@ body {
 
 .menu-list a:hover {
     background: #732F61;
-    transition: all 400ms ease-in-out;
+    transition: all 500ms ease-in-out;
     color: #fc97d0;
 }
 
@@ -109,4 +102,22 @@ body {
     width: 100%;
     height: 10rem;
     
+}
+
+/* Intro AMAJES */
+
+.intro {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 70rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.intro img {
+    width: 20rem;
 }
