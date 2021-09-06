@@ -259,3 +259,15 @@ section img:hover {
     width: 20rem;
     height: auto;
 }
+
+/* RODAPÉ */
+
+.footer {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}
