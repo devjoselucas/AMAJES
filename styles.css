@@ -252,3 +252,10 @@ section img:hover {
 .border-img{
     border-radius: 10%;
 }
+
+/* DOE */
+
+.logomarca-img {
+    width: 20rem;
+    height: auto;
+}
