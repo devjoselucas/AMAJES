@@ -145,7 +145,6 @@ p{
 .intro-text {
     display: flex;
     flex-flow: column;
-    gap: 2rem;
     max-width: 60rem;
     max-height: 40rem;
     min-width: 28rem;
@@ -161,10 +160,14 @@ p{
     
     font-size: 1.8rem;
     text-transform: uppercase;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
 }
 
 .intro-text h3 {
 
     font-size: 1.6rem;
     text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
