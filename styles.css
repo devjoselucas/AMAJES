@@ -249,3 +249,6 @@ section img:hover {
 
 /* Localização */
 
+.border-img{
+    border-radius: 10%;
+}
